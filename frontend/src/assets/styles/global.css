@@ -1,0 +1,52 @@
+:root {
+    font-size: 60%;
+
+    --color-green-extraLight: #A5EC5C;
+    --color-green-light: #8FE734;
+    --color-green: #74E600;
+    --color-green-dark: #5AB200;
+    --color-green-extraDark: #478C00;
+    --color-red-extraLight: #FF8964;
+    --color-red-light: #FF6939;
+    --color-red: #FF3D00;
+    --color-red-dark: #C63000;
+    --color-red-extraDark: #9B2500;
+    --color-blue-extraLight: #4F92BA;
+    --color-blue-light: #2D7BAB;
+    --color-blue: #0969A2;
+    --color-blue-dark: #07527E;
+    --color-blue-extraDark: #044063;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    background: #fff;
+}
+
+#root {
+    display: flex;
+}
+
+body,
+input,
+button,
+textarea {
+    color: #000;
+}
+
+@media( min-width: 700px ) {
+    :root {
+        font-size: 62.5%;
+    }
+}
