@@ -26,6 +26,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ## 🔖 Layout
 
 <img alt='Pagina inicial' src='https://github.com/WeslynSouza/OffSession/blob/master/Github/paginaDeOfertas.png'>
+<img alt='Pagina inicial' src='https://github.com/WeslynSouza/OffSession/blob/master/Github/Ingresso.png'>
+<img alt='Pagina inicial' src='https://github.com/WeslynSouza/OffSession/blob/master/Github/Pagamento%20%E2%80%93%202.png'>
 
 ## 📌 Como executar
 
