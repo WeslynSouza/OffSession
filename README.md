@@ -25,7 +25,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-<img alt='Pagina inicial' src='./github/paginaDeOfertas.png'>
+<img alt='Pagina inicial' src='https://github.com/WeslynSouza/OffSession/blob/master/Github/paginaDeOfertas.png'>
 
 ## 📌 Como executar
 
