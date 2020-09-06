@@ -1,5 +1,5 @@
 <h1 align='center'>
-  <img alt='OffSession' src='https://github.com/WeslynSouza/OffSession/blob/master/Github/Logo.svg'/>
+  - [OffSession](https://github.com/WeslynSouza/OffSession/blob/master/Github/Logo.svg)
 </h1>
 
 <p align="center">
