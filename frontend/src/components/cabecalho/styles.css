@@ -4,6 +4,15 @@ header {
     width: 100vw;
     justify-content: space-around;
     align-items: center;
+    overflow-x: hidden;
+}
+
+header .fundo {
+    width: 100vw;
+    height: 30rem;
+    position: absolute;
+    z-index: -1;
+    background: var(--color-blue-extraDark);
 }
 
 header .header-logo {
@@ -16,4 +25,8 @@ header a {
 
 header .botao-voltar, header .button-faq {
     font-size: 2.4rem;
+}
+
+header .botao-off{
+    font-size: 0px;
 }

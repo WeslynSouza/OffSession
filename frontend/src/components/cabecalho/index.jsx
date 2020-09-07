@@ -3,30 +3,22 @@ import { FaArrowLeft, FaQuestionCircle } from 'react-icons/fa';
 import './styles.css';
 
 
-import LogoClara from '../../assets/img/logoOffsession-fundoClaro.svg';
-import LogoEscura from '../../assets/img/logoOffsession-fundoEscuro.svg';
+import LogoClara from '../../assets/img/logoOffsession-fundoEscuro.svg';
+import LogoEscura from '../../assets/img/logoOffsession-fundoClaro.svg';
 
 export default props => {
 
-    function botaoVoltar(back){
-        if(back === 'true'){
-            return (
-                <a href='/' className='botao-voltar'>
-                    <FaArrowLeft/>
-                </a>
-            )
-        }else{
-            return '';
-        }
-    }
-
     return (
         <header>
-            {botaoVoltar(props.back)}
+            <div className="fundo"></div>
+
+            <a href='/' className={`botao-voltar ${props.back ? '' : 'botao-off'}`}>
+                <FaArrowLeft/>
+            </a>
 
             <img className='header-logo' src={props.light ? LogoClara : LogoEscura} alt="Logo OffSession"/>
 
-            <a href='/' className='button-faq'>
+            <a href='/' className='button-faq' style={{color: props.light ? '#fff' : '#0C5DA5'}}>
                 <FaQuestionCircle/>
             </a>
         </header>
