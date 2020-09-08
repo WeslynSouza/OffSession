@@ -1,6 +1,7 @@
 import React from 'react';
 import Cabecalho from '../../components/cabecalho';
 import Slide from '../../components/slides';
+import Card from '../../components/card';
 import Rodape from '../../components/rodape';
 
 import vingadores from '../../assets/img/vingadores.jpg';
@@ -14,6 +15,8 @@ export default props => {
 
             <main>
                 <Slide img={vingadores} />
+
+                <Card />
             </main>
 
             <Rodape>
